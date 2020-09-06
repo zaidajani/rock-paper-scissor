@@ -1,0 +1,35 @@
+
+
+int output;
+    if (p1 == ROCK && p2 == PAPER)
+    {
+        output = P2WIN;
+    }
+    else if (p1 == PAPER && p2 == SCISSORS)
+    {
+        output = P2WIN;
+    }
+    else if (p1 == SCISSORS && p2 == ROCK)
+    {
+        output = P2WIN;
+    }
+    else if (p1 == PAPER && p2 == ROCK)
+    {
+        output = P1WIN;
+    }
+    else if (p1 == SCISSORS && p2 == PAPER)
+    {
+        output = P1WIN;
+    }
+    else if (p1 == ROCK && p2 == SCISSORS)
+    {
+        output = P1WIN;
+    }
+    else
+    {
+        output = DRAW;
+    }
+
+1 = ROCK
+2 = PAPER 
+3 = SCISSORS
